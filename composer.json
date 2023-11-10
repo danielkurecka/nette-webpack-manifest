@@ -1,0 +1,27 @@
+{
+	"name": "daku/nette-webpack-manifest",
+	"type": "library",
+	"description": "Provides Latte functions for reading asset paths from Webpack manifest file.",
+	"keywords": ["nette", "latte", "webpack", "webpack-manifest"],
+
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Daniel Kurečka",
+			"email": "danielkurecka@gmail.com"
+		}
+	],
+
+	"require": {
+		"php": ">=8.0",
+		"nette/di": "^3.0",
+		"latte/latte": "^3.0",
+		"nette/application": "^3.1"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Daku\\NetteWebpackManifest\\": "src/"
+		}
+	}
+}

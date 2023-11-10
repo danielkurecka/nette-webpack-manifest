@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE latte PUBLIC "-//LATTE//Latte plugin XML V0.0.1//EN" ".idea/intellij-latte-pro/xmlSources/Latte.dtd">
+<latte vendor="daku/nette-webpack-manifest" version="1">
+	<functions>
+		<function name="hasWebpackAsset" returnType="bool" documentation="checks if asset exists in manifest file">
+			<functionArguments>
+				<functionArgument name="entryName" type="string"/>
+			</functionArguments>
+		</function>
+		<function name="getWebpackAsset" returnType="string" documentation="returns asset path from manifest file">
+			<functionArguments>
+				<functionArgument name="entryName" type="string"/>
+			</functionArguments>
+		</function>
+	</functions>
+</latte>
