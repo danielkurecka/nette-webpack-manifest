@@ -21,7 +21,7 @@
 
 	"autoload": {
 		"psr-4": {
-			"Daku\\NetteWebpackManifest\\": "src/"
+			"Daku\\Nette\\Webpack\\": "src/"
 		}
 	}
 }

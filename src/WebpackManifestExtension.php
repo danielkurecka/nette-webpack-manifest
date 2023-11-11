@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Daku\Nette;
+namespace Daku\Nette\Webpack;
 
 use Latte\Extension;
 use Nette\Bridges\ApplicationLatte\LatteFactory;

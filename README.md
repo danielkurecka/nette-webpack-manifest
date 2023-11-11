@@ -11,7 +11,7 @@ To use this extension, register it and provide the path to the manifest file in 
 
 ```neon
 extensions:
-	webpackManifest: Daku\Nette\WebpackManifestExtension("%wwwDir%/static/webpack/manifest.json")
+	webpackManifest: Daku\Nette\Webpack\WebpackManifestExtension('%wwwDir%/static/webpack/manifest.json')
 ```
 
 You can then use the `getWebpackAsset()` function to retrieve the asset path. If the asset is not found, an exception is thrown. You can also check for the existence of an asset using the `hasWebpackAsset()` function:
